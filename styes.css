@@ -33,9 +33,9 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid ;
+    border-radius: 2cap ;
     font-style: 25px;
-    
+     border: 2px solid;
 }
 .bloc1 h1 {
     color: red;

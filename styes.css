@@ -13,6 +13,9 @@ body{
     align-items: center;
     font-family: sans-serif;
 }
+h2{
+       color: #8e8e8e;
+}
 .cv{
     display: flex;
     flex-direction: column;
@@ -32,6 +35,14 @@ body{
     align-items: center;
     border: 2px solid ;
     font-style: 25px;
+    
+}
+.bloc1 h1 {
+    color: red;
+   font-size: 35px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 .bloc2{
     width: 100%;
@@ -53,10 +64,26 @@ body{
       flex-direction: column;
       align-items: center;
       padding: 3px;
+     border-radius: 2cap;
+}
+.lineMenu{
+ list-style: none;
+ 
+}
+.lineMenu a{
+     text-decoration: none;
+     color: rgb(69, 97, 158);
 }
 .titre{
     border: 3px solid;
     height: 100%;
     grid-column: span 2;
       background-color: #ffecd2;
+      border-radius: 2cap;
+      padding: 3px;
+}
+.titre h2{
+    position: relative;
+    left: 25%;
+    color: #8e8e8e;
 }
